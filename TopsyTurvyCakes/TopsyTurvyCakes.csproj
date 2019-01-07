@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Content Remove="Pages\Index.cshtml" />
+    <Content Remove="Pages\Recipe.cshtml" />
+    <Content Remove="Pages\_Layout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\_Layout.cshtml" />
+    <None Include="Pages\Index.cshtml" />
+    <None Include="Pages\Recipe.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
